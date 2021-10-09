@@ -1,0 +1,151 @@
+
+body{
+    background:rgb(221, 210, 210);
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding:0px;
+    margin:0px;
+}
+
+.navber{
+    background-color: rgb(228, 220, 220);
+    height:60px;
+    padding:10px;
+
+}
+
+
+.navber ul{
+    list-style:none;
+    float:right;
+   
+}
+
+
+.navber ul li{
+    display:inline-block;
+    float:left;
+   line-height:20px;
+}
+
+
+.navber ul li a{
+    font-size:30px;
+    padding: 2px 40px;
+    text-decoration:none;
+    color:black;
+}
+
+.navber ul li a:hover{
+    background:orange;
+    color:rgb(15, 15, 235);
+}
+
+.navber img{
+    padding-left:80px;
+}
+
+.blankdiv{
+    background:rgb(255, 255, 254);
+    width:100%;
+    height:50px;
+}
+
+.image{
+    width:60%;
+    padding-left:40px;
+    float:left;    
+}
+
+
+.textandform{
+    text-align:center;
+    width:20%;
+    height:500px;
+    padding:80px;
+    background:black;
+    color:white;
+    overflow:hidden;
+    margin: 100px 0px 0px 0px;  
+    border: 5px solid black;
+    border-radius:30px; 
+    
+    
+}
+
+.textandform .text{
+    background:rgb(255, 45, 45);
+    border: 5px solid rgb(255, 45, 45);
+    border-radius:20px;
+}
+
+.line{
+    background:white;
+    width:100%;
+    height:30px;
+}
+
+.vagetablebox{
+  margin:20px;
+  width:100%;
+}
+
+.vagetablebox .firstbox{
+    background:rgb(0, 0, 0);
+    width: 19%;
+    color:white;
+    text-align: center;
+    border: 2px solid white;
+    border-radius:10px;
+    float:left;
+}
+
+.vagetablebox .lastbox{
+    background:rgb(0, 0, 0);
+    width: 19%;
+    color:white;
+    text-align: center;
+    border: 2px solid white;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.linea{
+    background:rgb(255, 253, 253);
+    width:100%;
+    height:30px;
+    margin-bottom:20px;
+}
+
+.footer{
+    background:black;
+    color:white;
+    padding:20px;
+    height:300px;
+    
+}
+
+.footer .left{
+    width:25%;
+    float:left;
+    padding-right:200px;
+    padding-top:60px;
+}
+
+.footer .middle{
+    width:25%;
+    overflow:hidden;
+    padding-top:10px;
+    text-align:center;
+    float:left;
+    padding-right:200px;
+
+}
+
+.footer.right{
+    width:25%;
+    overflow:hidden;
+    
+    
+    
+}
